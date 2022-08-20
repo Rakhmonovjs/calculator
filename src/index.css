@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  color: white;
+  background-color: rgb(47, 187, 192);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.javob{
+  color: rgb(224, 218, 218);
+  opacity: 0.5;
+  background-color: rgb(47, 187, 192);
+}
+.nom{
+  font-size: 55px;
+  box-shadow: 10px;
+  color:rgb(43, 41, 25);
+
+}
+
+.calculator {
+  max-width: 800px;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  opacity: 1;
+}
+
+.input {
+  display: flex;
+}
+
+.button {
+  display: flex;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+.c{
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-size: 4rem;
+  border: 1px solid rgb(12, 12, 11);
+  /* background-color: rgb(66, 245, 50); */
+}
+.kop{
+  color:aliceblue;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-size: 4rem;
+  border: 1px solid rgb(15, 15, 10);
+  /* background-color: rgb(180, 27, 27); */
+}
+.kam{
+  color:aliceblue;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-size: 4rem;
+  border: 1px solid rgb(36, 36, 27);
+  /* background-color: rgb(56, 192, 38); */
+}
+.plus{
+  color:aliceblue;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-size: 4rem;
+  border: 1px solid rgb(19, 19, 15);
+  /* background-color: rgb(228, 13, 163); */
+}
+.minus{
+
+  color:aliceblue;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-size: 4rem;
+  border: 1px solid rgb(27, 27, 23);
+  /* background-color: rgb(79, 50, 245); */
+}
+.teng{
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-size: 4rem;
+  border: 1px solid rgb(17, 17, 13);
+  /* background-color: rgb(189, 90, 50); */
+}
+.col {
+  color: rgb(226, 230, 21);
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-size: 4rem;
+  border: 1px solid gray;
+  /* background-color: rgb(240, 235, 235); */
+  opacity: 1;
+}
+
+input {
+  width: 400px;
+  height: 100px;
+  font-size: 5rem;
+  text-align: right;
+}
+.asdt {
+  color: rgb(45, 25, 228);
+  opacity: 0.5;
+
+}
+.asdg {
+  color: rgb(45, 25, 228);
+  opacity: 0.5;
+}
